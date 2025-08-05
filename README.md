@@ -63,6 +63,10 @@ The backend keeps the **same JSON output format** as the OpenAI transcription, e
 
 ### 3. Run the Flask app
 
-   - export FLASK_APP=src.app:create_app
-   - export FLASK_ENV=development
-   - flask run
+   - export PYTHONPATH=<This folder path>
+   - PYTHONPATH=. python src/app.py 
+
+### 4. Visite site
+   - http://127.0.0.1:5000
+   - Use a english speaking audio file 
+   - A and a randiom id in ipute like 1234
