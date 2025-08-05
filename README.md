@@ -1,5 +1,4 @@
-# Hour Homework (Backend-heavy) — Add Local ASR Fallback to `build_srt_file`
-
+# Voice Video Project
 ## Overview
 
 This project adds a **local ASR (Automatic Speech Recognition) fallback** to the existing transcription pipeline. It reduces cost and API dependency by enabling local transcription using the faster-whisper model when OpenAI's API is unavailable or rate-limited.
