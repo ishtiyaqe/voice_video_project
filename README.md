@@ -48,3 +48,21 @@ The backend keeps the **same JSON output format** as the OpenAI transcription, e
        }
      ]
    }
+
+
+## 🚀 How to Run
+
+### 1. Setup virtual environment
+
+python3 -m venv venv
+source venv/bin/activate
+
+### 2. Install dependencies
+
+pip install -r requirements.txt
+
+### 3. Run the Flask app
+
+export FLASK_APP=src.app:create_app
+export FLASK_ENV=development
+flask run
