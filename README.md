@@ -63,7 +63,7 @@ The backend keeps the **same JSON output format** as the OpenAI transcription, e
 
 ### 3. Run the Flask app
 
-   - export PYTHONPATH=<This folder path>
+   - export PYTHONPATH=This folder path
    - PYTHONPATH=. python src/app.py 
 
 ### 4. Visite site
