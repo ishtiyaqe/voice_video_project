@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ASR Upload</title>
+</head>
+<body>
+    <h2>Upload Audio File for Transcription</h2>
+    <form method="POST" enctype="multipart/form-data" action="/upload">
+        <label for="project_id">Project ID:</label>
+        <input type="text" name="project_id" required>
+        <br><br>
+        <input type="file" name="audio_file" accept=".wav,.mp3,.m4a" required>
+        <br><br>
+        <button type="submit">Transcribe</button>
+    </form>
+</body>
+</html>
