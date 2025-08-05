@@ -68,5 +68,5 @@ The backend keeps the **same JSON output format** as the OpenAI transcription, e
 
 ### 4. Visite site
    - http://127.0.0.1:5000
-   - Use a english speaking audio file 
-   - A and a randiom id in ipute like 1234
+   - Use an english speaking audio file 
+   - And a randiom id in ipute like 1234
