@@ -57,6 +57,7 @@ nosetests.xml
 coverage.xml
 *.cover
 .hypothesis/
+.secreats
 
 # MyPy / Pylint / Pyright / other static analysis
 .mypy_cache/
