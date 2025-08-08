@@ -70,3 +70,17 @@ The backend keeps the **same JSON output format** as the OpenAI transcription, e
    - http://127.0.0.1:5000
    - Use an english speaking audio file 
    - And a random id in ipute like 1234
+
+### 🚀 How to Run with Docker
+### Build the Docker image (run this in your project root):
+  - docker build -t nobel007/flask-app:latest .
+### Run the container (expose port 5000):
+  - docker run -d -p 5000:5000 --env WHISPER_PROVIDER=auto nobel007/flask-app:latest
+You can set the environment variable WHISPER_PROVIDER to openai, faster-whisper, or auto in the container to control which ASR provider is used.
+
+# Visit the app in your browser:
+
+  - http://127.0.0.1:5000
+Use an English speaking audio file and input a random ID like 1234.
+
+
