@@ -1,5 +1,4 @@
-# Hour Homework (Backend-heavy) — Add Local ASR Fallback to `build_srt_file`
-
+# Voice Video Project
 ## Overview
 
 This project adds a **local ASR (Automatic Speech Recognition) fallback** to the existing transcription pipeline. It reduces cost and API dependency by enabling local transcription using the faster-whisper model when OpenAI's API is unavailable or rate-limited.
@@ -49,3 +48,25 @@ The backend keeps the **same JSON output format** as the OpenAI transcription, e
        }
      ]
    }
+
+
+## 🚀 How to Run
+
+### 1. Setup virtual environment
+
+   - python3 -m venv venv
+   - source venv/bin/activate
+
+### 2. Install dependencies
+
+   - pip install -r requirements.txt
+
+### 3. Run the Flask app
+
+   - export PYTHONPATH=This folder path
+   - PYTHONPATH=. python src/app.py 
+
+### 4. Visite site
+   - http://127.0.0.1:5000
+   - Use an english speaking audio file 
+   - And a random id in ipute like 1234
